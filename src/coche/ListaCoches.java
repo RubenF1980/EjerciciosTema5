@@ -8,8 +8,13 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class ListaCoches {
-	ArrayList<Coche> coches;
 
+//	ArrayList<Coche> coches = new ArrayList<Coche>();
+	
+///Se puede hacer de ls dos formas 
+	
+	 ArrayList<Coche> coches;
+	 
 	public ListaCoches() {
 		coches = new ArrayList<Coche>();
 	}
