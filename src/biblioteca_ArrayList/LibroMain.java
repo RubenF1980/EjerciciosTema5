@@ -1,4 +1,4 @@
-package biblioteca;
+package biblioteca_ArrayList;
 
 import java.util.ArrayList;
 import java.util.Scanner;

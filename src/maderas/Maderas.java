@@ -2,6 +2,18 @@ package maderas;
 
 import java.text.DecimalFormat;
 import java.util.Iterator;
+//MADERAS
+//Caoba Cedro Roble Nogal Teca
+//3 mm: 2.5 3.5 4.5 5.5 6.5
+//5 mm: 1.5 2.3 3.4 5.4 7.2
+//7 mm: 1.5 2.3 4.3 4.5 6.2
+//10 mm: 3.5 2.5 3.5 6.5 4.2
+
+//• Introducir los precios por teclado.
+//• Visualizar los datos como figuran en la imagen.
+//• Calcular y visualizar el valor medio por tipo (nombre) de madera.
+//• Visualizar el tipo de madera de menor precio medio y su precio medio.
+//• Realizar metodos. 
 
 public class Maderas {
 

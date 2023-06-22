@@ -1,4 +1,4 @@
-package coche;
+package coche_ArrayList;
 
 import java.lang.module.FindException;
 import java.util.ArrayList;
@@ -11,7 +11,7 @@ public class ListaCoches {
 
 //	ArrayList<Coche> coches = new ArrayList<Coche>();
 	
-///Se puede hacer de ls dos formas 
+///Se puede hacer de l	s dos formas 
 	
 	 ArrayList<Coche> coches;
 	 

@@ -1,4 +1,4 @@
-package personas;
+package personas_arraylist;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class PersonasMain {
 		// Creo las personas
 		Persona p1, p2, p3, p4, p5;
 
-		// agrego las personas .Si lo ahgo sin el add despues tengo que hacer el add
+		// agrego las personas .Si lo hago sin el add despues tengo que hacer el add
 		p1 = new Persona("Wayne", "John", 1907);
 		listaPersonas.add(p1);
 		// Las puedo añadir asi
@@ -92,6 +92,7 @@ public class PersonasMain {
 		for (int i = 0; i < lista.size(); i++) {
 			if (lista.get(i).getApellido().equalsIgnoreCase(nombreString)) {
 				lista.remove(i);
+				//Hago esto para controlar si meten un apellido que no este en el array list 
 				sw = true;
 			}
 		}
@@ -133,6 +134,7 @@ public class PersonasMain {
 	}
 
 	public static void mostrar(ArrayList<Persona> lista) {
+		//lo recorro con un foreach
 		for (Persona persona : lista) {
 			System.out.print(persona.getApellido() + " ");
 			System.out.print(persona.getNombreString() + " ");
@@ -144,7 +146,7 @@ public class PersonasMain {
 	private static void buscar(ArrayList<Persona> listaPersonas) {
 		Scanner teclado = new Scanner(System.in);
 		boolean control= false;
-		System.out.println("Introduce el apellido de la  persona  a buscar");
+		System.out.println("Introduce el apellido de la  persona a buscar");
 		String apellido = teclado.next();
 		for (Persona persona : listaPersonas) {
 			if (persona.getApellido().equalsIgnoreCase(apellido)) {
@@ -158,7 +160,8 @@ public class PersonasMain {
 		}
 	}
 
-	
+
+
 	
 	
 	

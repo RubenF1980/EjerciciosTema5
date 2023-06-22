@@ -1,6 +1,16 @@
-package coche;
+package coche_ArrayList;
 
 public class Coche {
+//	Escribir un programa Java que crea un ArrayList de Objetos de tipo Coche.
+//	El programa guarda los datos de los coches de la imagen y los guarda en el ArrayList.
+//	A continuación utilizará el ArrayList para mostrar por pantalla lo siguiente:
+//		- Todos los coches introducidos.
+//		- Todos los coches de una marca determinada.
+//		- Todos los coches con menos de un número determinado de Kilómetros.
+//		- El coche con mayor número de Kilómetros.
+//		- Todos los coches ordenados por número de kilómetros de menor a mayor.
+//		- Añadir coches.
+//		//Clase Coche private String matricula; private String marca; private String modelo; private int Km;
 	
 	private String matricula;
 	private String marca;

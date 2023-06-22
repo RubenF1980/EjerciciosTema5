@@ -1,4 +1,4 @@
-package personas;
+package personas_arraylist;
 
 public class Persona {
 
@@ -30,6 +30,20 @@ public class Persona {
 		this.nombreString = nombreString;
 		this.fechaNacimiento = fechaNacimiento;
 	}
+//	Crear los siguientes datos de la clase persona:
+//		Persona("Wayne", "John",1907)
+//		Persona("McQueen", "Steve",1930)
+//		Persona("Lennon", "John",1940)
+//		Persona("Gibson", "Mel",1956)
+//		Persona("Willis", "Bruce",1955)
+//		Crea el siguiente menú en la clase ejecutable, que permita trabajar sobre un ArrayList de personas. Utilizar métodos.
+//		***** MENU ******
+//		1.- Añadir
+//		2.- Borrar (por apellido)
+//		3.- Modificar (por apellido)
+//		4.- Visualizar (todas las personas)
+//		5.- Buscar (por apellido) 6.- SALIR
+//		Elegir opción:
 	
 	
 }

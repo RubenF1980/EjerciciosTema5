@@ -1,4 +1,4 @@
-package coche;
+package coche_ArrayList;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class CocheMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner teclado = new Scanner(System.in);
-		String marcaaborrarString;
+		
 
 		ListaCoches objCoches = new ListaCoches();
 		
@@ -22,8 +22,7 @@ public class CocheMain {
 		System.out.println();
 		
 		System.out.println("Introduce km para mostrar los que tengan menos ");
-		int km = teclado.nextInt();
-		System.out.println();
+		int km = teclado.nextInt();		
 		objCoches.mostraconxkm(km);
 		System.out.println();
 		
@@ -38,7 +37,8 @@ public class CocheMain {
 		System.out.println();
 		
 		System.out.println("Borrar coche por marca.introduce marca a borrar ");
-		marcaaborrarString = teclado.nextLine();		
+		String marcaaborrarString;
+		marcaaborrarString = teclado.next();		
 		objCoches.borrarCoche(marcaaborrarString);
 		System.out.println();
 		System.out.println("-----Borrar por marca-----");
@@ -49,7 +49,7 @@ public class CocheMain {
 		System.out.println("Añadir coches");
 		objCoches.addcoches();
 		objCoches.mostrarCoches2();		
-		System.out.println();
+		//System.out.println();
 		
 	
 

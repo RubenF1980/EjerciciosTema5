@@ -1,4 +1,4 @@
-package biblioteca;
+package biblioteca_ArrayList;
 
 public class Libro {
 	private String titulo;
